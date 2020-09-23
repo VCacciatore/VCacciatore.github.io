@@ -1,11 +1,11 @@
-﻿html, body {
+html, body {
     height: 100%;
     width: 100%;
     margin: 0;
 }
 #hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    background-image: url("../images/heroImage.png");
+    background-image: url("../images/citrBanner.png");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,8 +13,17 @@
     position: relative;
 }
 
-
-
+#hero-image p {
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Playfair Display', Times, serif;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+}
 
 #navBar ul {
     list-style-type: none;
@@ -39,44 +48,13 @@
     background-color: #80179B;
 }
 
-#intro {
+h1, h3{
     text-align: center;
 }
 
-a:visited {
-    color:white;
-}
-
-#bookshelf {
+#review {
+    text-align: justify;
     padding-left: 15%;
     padding-right: 15%;
-}
-
-h2 {
-    text-align: center;
-}
-.novelOpt {
-    width: 20%;
-    height: 33%;
-    margin: 10px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    text-align: center;
-    cursor: pointer;
-    float: left;
-}
-
-    .novelOpt img {
-        width: 200px;
-        height: 320px;
-    }
-
-    .novelOpt:hover {
-        border: 1px solid #000000;
-    }
-
-    
-
-.hideMe {
-    opacity: 0;
+    font-family: 'Playfair Display', Times, serif;
 }

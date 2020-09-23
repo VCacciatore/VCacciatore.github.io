@@ -39,7 +39,7 @@ $(document).ready(function () {
             var bot_of_object = $(this).offset().top + $(this).outerHeight();
             var bot_of_page = $(window).scrollTop() + $(window).height();
             if (bot_of_page > bot_of_object) {
-                $(this).animate({ 'opacity': '1' }, 500)
+                $(this).animate({ 'opacity': '1' }, 1000)
             }
         });
     });
