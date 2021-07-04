@@ -13,7 +13,7 @@ html, body {
     position: relative;
 }
 
-#hero-image p {
+#hero-text{
     text-align: center;
     font-style: italic;
     font-size: 50px;
